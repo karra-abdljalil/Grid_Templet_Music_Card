@@ -1,0 +1,106 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+/* ---- color ---  */
+:root {
+    
+  /* Primary */
+
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+
+    /* Neutral */
+
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+
+}
+.parent {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to bottom  , hsl(225, 100%, 98%),hsl(245, 59%, 82%));
+
+    /* background: linear-gradient(to bottom  , hsl(224, 23%, 55%),hsl(225, 100%, 94%)); */
+    /* background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),url("images/pattern-background-desktop.svg")); */
+}
+
+
+.centre-box img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.centre-box h2 {
+    font-weight: 900;
+    color:var(--Dark-blue) ;
+}
+
+.centre-box p {
+    font-size: 16px;
+    color: var(--Desaturated-blue);
+    line-height: 1.5;
+    margin-top: 20px;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.centre-box .icon-song {
+    margin-left: 70px;
+    
+    
+}
+
+
+.centre-box .hover-h2 {
+    margin-right: 50px;
+}
+
+.centre-box h2 {
+    margin-top: 10px; 
+}
+
+.centre-box p {
+    margin-top: 10px;
+} 
+
+
+.btn  {
+    display: inline-block;
+}
+
+.btn button {
+    width: 300px;
+    height: 45px;
+    border-radius: 12px;
+    outline: none;
+    border-style: none;
+    background-color: var(--Bright-blue);
+    color: var(--Pale-blue);
+    cursor: pointer; 
+    text-align: center;
+     margin-top: 20px;
+       
+}
+.btn .btn-two {
+    background-color:var(--Very-pale-blue);
+    color:var(--Dark-blue);
+    transition: 0.9s;
+}
+
+.btn .btn-two:hover {
+    background-color: var(--Bright-blue);
+    color: var(--Pale-blue);
+}
